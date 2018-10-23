@@ -19,7 +19,7 @@ public class Worker extends BaseWorker implements IEat, ISick {
 
    @Override
    public void eat(){
-      System.out.prinln("Worker is eating..."); 
+      System.out.println("Worker is eating..."); 
    }
 
    @Override
