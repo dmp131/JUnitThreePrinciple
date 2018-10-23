@@ -66,7 +66,7 @@ public class ThreeSolidMain
 
       // robot testing
       System.out.println("\nTesting Robot class: ");
-      robot.work();
+      System.out.println(robot.work());
       robot.reboot();
 
 	  // Manager testing
