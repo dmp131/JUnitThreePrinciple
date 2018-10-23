@@ -10,11 +10,11 @@ This document is adhering to all three of the SOLID principals.
 */
 
 interface IWorkable {
-	public void work();
+	public String work();
 }   
 
 interface IEat {
-	public String eat();
+	public void eat();
 }  
 
 interface ISick {

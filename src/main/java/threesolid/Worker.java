@@ -17,12 +17,13 @@ public class Worker extends BaseWorker implements IEat, ISick {
    public Worker() {
    }
 
-   public String eat(){
-       System.out.println("Worker is eating...");
-       return("Worker is eating..."); 
+   @Override
+   public void eat(){
+      System.out.prinln("Worker is eating..."); 
    }
 
+   @Override
    public void sick(){
-       System.out.println("Worker is sick...");
+	   System.out.println("Worker is sick...");
    }
 }
