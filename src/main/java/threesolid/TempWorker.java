@@ -3,7 +3,7 @@ package threesolid;
 public class TempWorker extends BaseWorker implements IEat, ISick {
 	@Override
     public String work() {
-        retunr "TempWorker is working...";
+        return "TempWorker is working...";
     }
 
 	@Override
