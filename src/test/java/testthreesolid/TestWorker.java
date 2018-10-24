@@ -19,10 +19,10 @@ public class TestWorker {
    private  Worker w = new Worker();
 	
    @Test
-   @DisplayName("Work Method Test")
+   //@DisplayName("Work Method Test")
    public void testWorkerWithNoName()
    {
-      String tester = w.work();
-      assertEquals(tester,"Work is happening...", "Mismatch between test text and method test");
+      //String tester = w.work();
+      assertEquals(w.work(),"Work is happening...", "Mismatch between test text and method test");
    }
 }
